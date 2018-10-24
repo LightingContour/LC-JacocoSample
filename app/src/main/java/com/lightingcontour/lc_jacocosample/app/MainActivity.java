@@ -19,7 +19,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     private int AClickedTime = 0;
     private boolean easterEgg = false;
 
+    //添加Jacoco覆盖率Instrumentation
     public JacocoInstrumentation jacocoInstrumentation = new JacocoInstrumentation();
+
+    //添加生命周期
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
